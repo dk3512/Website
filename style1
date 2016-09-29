@@ -1,0 +1,52 @@
+.slideshow {
+	position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px
+}
+.slideshow img {
+	position: absolute;
+    
+}
+.img-responsive {
+    max-width:100^;
+    max-height: 100%;
+}
+body {
+    background-color: darkred;
+}
+.navbar-header {
+    font-family: serif;
+}
+
+.container-fluid {
+}
+
+.footer {
+    color : white;
+    margin-right : 50px;
+}
+
+#footerbar_top li{
+    list-style-type : none;
+    display : inline-flex;
+    font-size: 32px;
+    font-weight : bold;  
+    width : 190px;
+    font-family : Georgia;
+}
+
+#footerbar_bottom li {
+    list-style-type : none;
+    display : inline-flex;
+    width : 190px;
+    font-size : 13px;
+    font-family : georgia;
+    
+}
+
+
+#footerbar_top {
+    margin-bottom : -2px;
+}
